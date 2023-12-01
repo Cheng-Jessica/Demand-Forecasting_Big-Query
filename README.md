@@ -31,8 +31,9 @@ We will use this dataset to predict sales for the thousands of product families 
 #### Big Query ML infrastructure will take care off -
 - Cleaning adjustments such as missing values, duplicated timestamps, spike anomalies
 - Holiday effects – inbuilt feature to access holidays across the world
-·   	Seasonal and trend decomposition using Loess (STL) algorithm
-·   	Seasonality extrapolation using the double exponential smoothing (ETS) algorithm
-·   	Trend modeling using ARIMA model and auto.ARIMA algorithm for automatic hyper-parameter tuning. In auto.ARIMA, dozens of candidate models are trained and evaluated in parallel. The model with the lowest Akaike information criterion (AIC) is selected as the best model.
+- Seasonal and trend decomposition using Loess (STL) algorithm
+- Seasonality extrapolation using the double exponential smoothing (ETS) algorithm
+- Trend modeling using ARIMA model and auto.ARIMA algorithm for automatic hyper-parameter tuning. In auto.ARIMA, dozens of candidate models are trained and evaluated in parallel. The model with the lowest Akaike information criterion (AIC) is selected as the best model.
 
-Arima Model workflow as follows -
+#### Arima Model workflow as follows -
+![ARIMA Structure]("C:\Users\Jessica\Downloads\messageImage_1701460927319.jpg")
