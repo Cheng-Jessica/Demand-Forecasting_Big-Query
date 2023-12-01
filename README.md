@@ -36,4 +36,4 @@ We will use this dataset to predict sales for the thousands of product families 
 - Trend modeling using ARIMA model and auto.ARIMA algorithm for automatic hyper-parameter tuning. In auto.ARIMA, dozens of candidate models are trained and evaluated in parallel. The model with the lowest Akaike information criterion (AIC) is selected as the best model.
 
 #### Arima Model workflow as follows -
-![ARIMA Structure]("C:\Users\Jessica\Downloads\messageImage_1701460927319.jpg")
+![ARIMA Structure](https://github.com/Cheng-Jessica/Trendsmarket_BigqueryML/blob/main/arima_structure.jpg)
