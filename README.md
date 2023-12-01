@@ -1,9 +1,11 @@
 ## Team 6 - Trendsmarket_BigqueryML
 
 ### Problem
+
 To manage the infrastructure to handle continuous model training and forecasting which becomes overwhelming for medium and large businesses
 
-###Solution
+### Solution
+
 Google Cloud Platform - It offers a comprehensive ecosystem of services and tools that can be leveraged to build, train, and deploy advanced time series forecasting models efficiently and at scale. The managed services, scalability, and integration between different components make it a compelling choice for organizations working on time series forecasting applications.
 
 ### Dataset (https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data)
