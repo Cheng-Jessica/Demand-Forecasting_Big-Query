@@ -1,1 +1,1 @@
-# Trendsmarket_BigqueryML
+## Team 6 - Trendsmarket_BigqueryML
