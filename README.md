@@ -29,9 +29,6 @@ We will use this dataset to predict sales for the thousands of product families 
 - Test the accuracy of the model using MAPE (Mean Absolute Percentage Error)
 - Present an interactive dashboard to visualize the forecasted demand using Looker Studio
 
-#### More detail for this project(https://www.youtube.com/watch?v=6MRux_sKrtA&ab_channel=MSBA_Team)
-
-
 #### Big Query ML infrastructure will take care off -
 - Cleaning adjustments such as missing values, duplicated timestamps, spike anomalies
 - Holiday effects – inbuilt feature to access holidays across the world
@@ -41,3 +38,4 @@ We will use this dataset to predict sales for the thousands of product families 
 
 #### Arima Model workflow as follows -
 ![ARIMA Structure](https://github.com/Cheng-Jessica/Trendsmarket_BigqueryML/blob/main/arima_structure.jpg)
+#### More detail for this project(https://www.youtube.com/watch?v=6MRux_sKrtA&ab_channel=MSBA_Team)
