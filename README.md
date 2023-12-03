@@ -36,6 +36,11 @@ We will use this dataset to predict sales for the thousands of product families 
 - Seasonality extrapolation using the double exponential smoothing (ETS) algorithm
 - Trend modeling using ARIMA model and auto.ARIMA algorithm for automatic hyper-parameter tuning. In auto.ARIMA, dozens of candidate models are trained and evaluated in parallel. The model with the lowest Akaike information criterion (AIC) is selected as the best model.
 
+#### Demand Forecasting Dashboard (Store-Item Combination)
+- Filter option 1: Store number or Item name or Store-item combination
+- Filter option 2: Date Range
+![Dashbaord](https://github.com/Cheng-Jessica/Trendsmarket_BigqueryML/blob/main/Step3%20-%20Dashbaord.jpg)
+
 #### Arima Model workflow as follows -
 ![ARIMA Structure](https://github.com/Cheng-Jessica/Trendsmarket_BigqueryML/blob/main/arima_structure.jpg)
 #### More detail for this project(https://www.youtube.com/watch?v=6MRux_sKrtA&ab_channel=MSBA_Team)
