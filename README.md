@@ -19,8 +19,13 @@ We will use this dataset to predict sales for the thousands of product families 
 - fully manage and scale infrastructure to reduce complexity and accelerate time to production
 - forecast multiple products in parallel with Big Query ML (use TIME_SERIES_ID_COL that can forecast up to 100,000,000 time series simultaneously with a single query)
 - automatically re-train the model on a regular basis (schedule query weekly, monthly...)
-- *Please refer to file Step1 to Step3*
 
+#### How to implement this project?
+- Sign up for google cloud platform [LINK](<https://cloud.google.com/?hl=en>)
+- Go to bigquery page [LINK] (https://cloud.google.com/bigquery?hl=en)
+- Step 1: Load your data (prepare your data into the format you desired, bigquery accepts different format)
+- Step 2: Please refer to file Step2_bigquery_build_model.sql. It only require SQL.
+- Step 3: Build your own dashboard using Looker Studio, which is built-in in bigquery tool.
 ![Bigquery Structure](https://github.com/Cheng-Jessica/Trendsmarket_BigqueryML/blob/main/Structure_bigquery.jpg)
 
 
