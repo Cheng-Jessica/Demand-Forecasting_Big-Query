@@ -19,6 +19,7 @@ We will use this dataset to predict sales for the thousands of product families 
 - fully manage and scale infrastructure to reduce complexity and accelerate time to production
 - forecast multiple products in parallel with Big Query ML (use TIME_SERIES_ID_COL that can forecast up to 100,000,000 time series simultaneously with a single query)
 - automatically re-train the model on a regular basis (schedule query weekly, monthly...)
+- *Please refer to file Step1 to Step3*
 ![Bigquery Structure](https://github.com/Cheng-Jessica/Trendsmarket_BigqueryML/blob/main/google_bigquery_structure.jpg)
 
 
