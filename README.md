@@ -8,8 +8,7 @@ To manage the infrastructure to handle continuous model training and forecasting
 
 Google Cloud Platform - It offers a comprehensive ecosystem of services and tools that can be leveraged to build, train, and deploy advanced time series forecasting models efficiently and at scale. The managed services, scalability, and integration between different components make it a compelling choice for organizations working on time series forecasting applications.
 
-### Dataset (https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data)
-#### [Dataset](<https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data>)
+### [Dataset](<https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data>)
 We will use this dataset to predict sales for the thousands of product families sold at Favorita stores located in Ecuador. The training data includes dates, store and product information, whether that item was being promoted, as well as the sales numbers. Additional files include supplementary information that may be useful in building your models.
 - Train.csv: The training data, comprising time series of features *store_nbr*, *family*, and *onpromotion* as well as the target *sales*
 
@@ -44,9 +43,8 @@ We will use this dataset to predict sales for the thousands of product families 
 
 #### Arima Model workflow as follows -
 ![ARIMA Structure](https://github.com/Cheng-Jessica/Trendsmarket_BigqueryML/blob/main/arima_structure.jpg)
-#### More detail for this project(https://www.youtube.com/watch?v=6MRux_sKrtA&ab_channel=MSBA_Team)
+#### More detail for this project, [LINK](<https://www.youtube.com/watch?v=6MRux_sKrtA&ab_channel=MSBA_Team>)
 
-*Reference: 
-
+*[Reference1](<https://cloud.google.com/blog/topics/developers-practitioners/how-build-demand-forecasting-models-bigquery-ml>)*
 *This project repository is created in partial fulfillment of the requirements for the Big Data Analytics course offered by the Master of Science in Business Analytics program at the Carlson School of Management, University of Minnesota*
 
