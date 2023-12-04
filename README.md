@@ -26,7 +26,7 @@ We will use this dataset to predict sales for the thousands of product families 
 - Step 1: Load your data (prepare your data into the format you desired, bigquery accepts different format)
 - Step 2: Please refer to file Step2_bigquery_build_model.sql. It only require SQL.
 - Step 3: Build your own dashboard using Looker Studio, which is built-in in bigquery tool.
-- 
+  
 ![Bigquery Structure](https://github.com/Cheng-Jessica/Trendsmarket_BigqueryML/blob/main/Structure_bigquery.jpg)
 
 
