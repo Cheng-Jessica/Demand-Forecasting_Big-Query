@@ -8,7 +8,7 @@ To manage the infrastructure to handle continuous model training and forecasting
 
 Google Cloud Platform - It offers a comprehensive ecosystem of services and tools that can be leveraged to build, train, and deploy advanced time series forecasting models efficiently and at scale. The managed services, scalability, and integration between different components make it a compelling choice for organizations working on time series forecasting applications.
 
-### Dataset[LINK](<https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data>)
+### Dataset[(LINK)](<https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data>)
 We will use this dataset to predict sales for the thousands of product families sold at Favorita stores located in Ecuador. The training data includes dates, store and product information, whether that item was being promoted, as well as the sales numbers. Additional files include supplementary information that may be useful in building your models.
 - Train.csv: The training data, comprising time series of features *store_nbr*, *family*, and *onpromotion* as well as the target *sales*
 
@@ -21,8 +21,8 @@ We will use this dataset to predict sales for the thousands of product families 
 - automatically re-train the model on a regular basis (schedule query weekly, monthly...)
 
 #### How to implement this project?
-- Sign up for google cloud platform [LINK](<https://cloud.google.com/?hl=en>)
-- Go to bigquery page [LINK] (https://cloud.google.com/bigquery?hl=en)
+- Sign up for google cloud platform [(LINK)](<https://cloud.google.com/?hl=en>)
+- Go to bigquery page [(LINK)] (https://cloud.google.com/bigquery?hl=en)
 - Step 1: Load your data (prepare your data into the format you desired, bigquery accepts different format)
 - Step 2: Please refer to file Step2_bigquery_build_model.sql. It only require SQL.
 - Step 3: Build your own dashboard using Looker Studio, which is built-in in bigquery tool.
