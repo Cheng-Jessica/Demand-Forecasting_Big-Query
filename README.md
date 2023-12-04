@@ -53,7 +53,7 @@ We will use this dataset to predict sales for the thousands of product families 
 
 ### Video detail for this project, [LINK](<https://www.youtube.com/watch?v=6MRux_sKrtA&ab_channel=MSBA_Team>)
 
-*Reference 1: [LINK](<https://cloud.google.com/blog/topics/developers-practitioners/how-build-demand-forecasting-models-bigquery-ml>)*
+- *Reference 1: [LINK](<https://cloud.google.com/blog/topics/developers-practitioners/how-build-demand-forecasting-models-bigquery-ml>)*
 
-*This project repository is created in partial fulfillment of the requirements for the Big Data Analytics course offered by the Master of Science in Business Analytics program at the Carlson School of Management, University of Minnesota*
+- *This project repository is created in partial fulfillment of the requirements for the Big Data Analytics course offered by the Master of Science in Business Analytics program at the Carlson School of Management, University of Minnesota*
 
