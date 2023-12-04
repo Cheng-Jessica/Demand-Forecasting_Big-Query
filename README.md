@@ -22,7 +22,7 @@ We will use this dataset to predict sales for the thousands of product families 
 
 #### How to implement this project?
 - Sign up for google cloud platform [(LINK)](<https://cloud.google.com/?hl=en>)
-- Go to bigquery page [(LINK)] (https://cloud.google.com/bigquery?hl=en)
+- Go to bigquery page [(LINK)](<https://cloud.google.com/bigquery?hl=en>)
 - Step 1: Load your data (prepare your data into the format you desired, bigquery accepts different format)
 - Step 2: Please refer to file Step2_bigquery_build_model.sql. It only require SQL.
 - Step 3: Build your own dashboard using Looker Studio, which is built-in in bigquery tool.
@@ -54,5 +54,6 @@ We will use this dataset to predict sales for the thousands of product families 
 ### Video detail for this project, [LINK](<https://www.youtube.com/watch?v=6MRux_sKrtA&ab_channel=MSBA_Team>)
 
 *Reference 1: [LINK](<https://cloud.google.com/blog/topics/developers-practitioners/how-build-demand-forecasting-models-bigquery-ml>)*
+
 *This project repository is created in partial fulfillment of the requirements for the Big Data Analytics course offered by the Master of Science in Business Analytics program at the Carlson School of Management, University of Minnesota*
 
