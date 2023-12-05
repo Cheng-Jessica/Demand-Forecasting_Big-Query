@@ -1,10 +1,10 @@
 ## Team 6 - Trendsmarket_BigqueryML
 
-### Business Problem
+## Business Problem
 
 To manage the infrastructure to handle continuous model training and forecasting which becomes overwhelming for medium and large businesses
 
-### Our Solution
+## Our Solution
 
 Google Cloud Platform - It offers a comprehensive ecosystem of services and tools that can be leveraged to build, train, and deploy advanced time series forecasting models efficiently and at scale. The managed services, scalability, and integration between different components make it a compelling choice for organizations working on time series forecasting applications.
 
@@ -13,14 +13,14 @@ We will use this dataset to predict sales for the thousands of product families 
 - Train.csv: The training data, comprising time series of features *store_nbr*, *family*, and *onpromotion* as well as the target *sales*
 
 
-#### With Big Query ML, we will
+### With Big Query ML, we will
 
 - train and deploy time forecasting model such as ARIMA using SQL query
 - fully manage and scale infrastructure to reduce complexity and accelerate time to production
 - forecast multiple products in parallel with Big Query ML (use TIME_SERIES_ID_COL that can forecast up to 100,000,000 time series simultaneously with a single query)
 - automatically re-train the model on a regular basis (schedule query weekly, monthly...)
 
-#### How to implement this project?
+### How to implement this project?
 - Sign up for google cloud platform [(LINK)](<https://cloud.google.com/?hl=en>)
 - Go to bigquery page [(LINK)](<https://cloud.google.com/bigquery?hl=en>)
 - Step 1: Load your data (prepare your data into the format you desired, bigquery accepts different format)
@@ -52,7 +52,10 @@ We will use this dataset to predict sales for the thousands of product families 
 #### Arima Model workflow as follows -
 ![ARIMA Structure](https://github.com/Cheng-Jessica/Trendsmarket_BigqueryML/blob/main/arima_structure.jpg)
 
-### Video detail for this project, [LINK](<https://www.youtube.com/watch?v=6MRux_sKrtA&ab_channel=MSBA_Team>)
+
+
+### LINK
+#### Video detail for this project, [LINK](<https://www.youtube.com/watch?v=6MRux_sKrtA&ab_channel=MSBA_Team>)
 
 - *Reference 1: [LINK](<https://cloud.google.com/blog/topics/developers-practitioners/how-build-demand-forecasting-models-bigquery-ml>)*
 
