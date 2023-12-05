@@ -13,14 +13,14 @@ We will use this dataset to predict sales for the thousands of product families 
 - Train.csv: The training data, comprising time series of features *store_nbr*, *family*, and *onpromotion* as well as the target *sales*
 
 
-### With Big Query ML, we will
+## With Big Query ML, we will
 
 - train and deploy time forecasting model such as ARIMA using SQL query
 - fully manage and scale infrastructure to reduce complexity and accelerate time to production
 - forecast multiple products in parallel with Big Query ML (use TIME_SERIES_ID_COL that can forecast up to 100,000,000 time series simultaneously with a single query)
 - automatically re-train the model on a regular basis (schedule query weekly, monthly...)
 
-### How to implement this project?
+## How to implement this project?
 - Sign up for google cloud platform [(LINK)](<https://cloud.google.com/?hl=en>)
 - Go to bigquery page [(LINK)](<https://cloud.google.com/bigquery?hl=en>)
 - Step 1: Load your data (prepare your data into the format you desired, bigquery accepts different format)
@@ -30,26 +30,26 @@ We will use this dataset to predict sales for the thousands of product families 
 ![Bigquery Structure](https://github.com/Cheng-Jessica/Trendsmarket_BigqueryML/blob/main/Structure_bigquery.jpg)
 
 
-#### Process we will follow to use Big Query ML in Google Cloud
+### Process we will follow to use Big Query ML in Google Cloud
 - Pre-process data in the correct format needed to create a demand forecasting model
 - Train an ARIMA-based time-series model and evaluate the model
 - Predict the future demand by each store and item over the next 30 days
 - Test the accuracy of the model using MAPE (Mean Absolute Percentage Error)
 - Present an interactive dashboard to visualize the forecasted demand using Looker Studio
 
-#### Big Query ML infrastructure will take care off -
+### Big Query ML infrastructure will take care off -
 - Cleaning adjustments such as missing values, duplicated timestamps, spike anomalies
 - Holiday effects – inbuilt feature to access holidays across the world
 - Seasonal and trend decomposition using Loess (STL) algorithm
 - Seasonality extrapolation using the double exponential smoothing (ETS) algorithm
 - Trend modeling using ARIMA model and auto.ARIMA algorithm for automatic hyper-parameter tuning. In auto.ARIMA, dozens of candidate models are trained and evaluated in parallel. The model with the lowest Akaike information criterion (AIC) is selected as the best model.
 
-#### Demand Forecasting Dashboard (Store-Item Combination)
+### Demand Forecasting Dashboard (Store-Item Combination)
 - Filter option 1: Store number or Item name or Store-item combination
 - Filter option 2: Date Range
 ![Dashbaord](https://github.com/Cheng-Jessica/Trendsmarket_BigqueryML/blob/main/Step3%20_Dashbaord.jpg)
 
-#### Arima Model workflow as follows -
+### Arima Model workflow as follows -
 ![ARIMA Structure](https://github.com/Cheng-Jessica/Trendsmarket_BigqueryML/blob/main/arima_structure.jpg)
 
 
