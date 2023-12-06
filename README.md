@@ -1,4 +1,4 @@
-## Team 6 - Trendsmarket_BigqueryML
+## Team 6 - Google Cloud Big Query ML for Demand Forecasting
 
 ## Business Problem
 
