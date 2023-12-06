@@ -55,7 +55,7 @@ We will use this dataset to predict sales for the thousands of product families 
 
 
 ### LINK
-#### Video detail for this project, [LINK](<https://www.youtube.com/watch?v=6MRux_sKrtA&ab_channel=MSBA_Team>)
+#### Video detail for this project, [LINK](<https://www.youtube.com/watch?v=3evPwRKL9pc&ab_channel=MSBA_Team>)
 
 - *Reference 1: [LINK](<https://cloud.google.com/blog/topics/developers-practitioners/how-build-demand-forecasting-models-bigquery-ml>)*
 
