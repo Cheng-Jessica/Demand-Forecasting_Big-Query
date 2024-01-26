@@ -1,4 +1,4 @@
-## Team 6 - Google Cloud Big Query ML for Demand Forecasting
+## Google Cloud Big Query ML for Demand Forecasting
 
 ## Business Problem
 
